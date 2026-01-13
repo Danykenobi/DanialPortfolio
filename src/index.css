@@ -206,12 +206,18 @@
 
 @media (max-width: 768px) {
   .animated-gradient {
-    filter: blur(40px);
+    background: radial-gradient(circle at 20% 50%, rgba(0, 20, 220, 0.8) 0%, rgba(0, 20, 220, 0.3) 15%, transparent 40%),
+                radial-gradient(circle at 80% 80%, rgba(0, 20, 220, 0.6) 0%, rgba(0, 20, 220, 0.1) 20%, transparent 45%),
+                radial-gradient(circle at 40% 20%, rgba(0, 20, 220, 0.5) 0%, transparent 35%);
+    filter: blur(60px);
     animation: gradient-shift 80s ease-in-out infinite;
   }
 
   .dark .animated-gradient {
-    filter: blur(40px);
+    background: radial-gradient(circle at 20% 50%, rgba(0, 20, 220, 0.9) 0%, rgba(0, 20, 220, 0.3) 15%, transparent 40%),
+                radial-gradient(circle at 80% 80%, rgba(0, 20, 220, 0.7) 0%, rgba(0, 20, 220, 0.1) 20%, transparent 45%),
+                radial-gradient(circle at 40% 20%, rgba(0, 20, 220, 0.6) 0%, transparent 35%);
+    filter: blur(60px);
     animation: gradient-shift 80s ease-in-out infinite;
   }
 }
