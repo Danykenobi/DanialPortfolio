@@ -216,7 +216,7 @@ export const ProjectsSection = () => {
                 setSelectedProject(project);
                 setCurrentImageIndex(0);
               }}
-              className="group bg-card rounded-lg overflow-hidden shadow-xs card-hover cursor-pointer transition-all duration-300"
+              className="group glass-card overflow-hidden card-hover cursor-pointer transition-all duration-300"
             >
               <div className="h-64 overflow-hidden relative">
                 <img
@@ -255,7 +255,7 @@ export const ProjectsSection = () => {
               <X size={28} strokeWidth={3} />
             </button>
 
-            <div className="bg-card rounded-lg max-w-2xl w-full max-h-[90vh] overflow-y-auto relative">
+            <div className="glass-card max-w-2xl w-full max-h-[90vh] overflow-y-auto relative">
 
               {/* Project Image with Carousel */}
               <div className="h-96 overflow-hidden relative">
