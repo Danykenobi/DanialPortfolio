@@ -229,7 +229,7 @@ export const ProjectsSection = () => {
               <div className="p-6">
                 <div className="flex flex-wrap gap-2 mb-4 justify-center">
                   {project.tags.map((tag, idx) => (
-                    <span key={idx} className="px-2 py-1 text-xs font-medium border rounded-full bg-secondary text-secondary-foreground">
+                    <span key={idx} className="px-2 py-1 text-xs font-medium border border-primary rounded-full text-primary bg-transparent">
                       {tag}
                     </span>
                   ))}
