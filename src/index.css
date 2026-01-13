@@ -186,7 +186,10 @@
               radial-gradient(circle at 40% 20%, rgba(0, 20, 220, 0.5) 0%, transparent 20%);
   background-size: 150% 150%;
   animation: gradient-shift 60s ease-in-out infinite;
-  filter: blur(150px);
+  filter: blur(80px);
+  will-change: background-position;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
 }
 
 .dark .animated-gradient {
@@ -195,7 +198,22 @@
               radial-gradient(circle at 40% 20%, rgba(99, 179, 237, 0.6) 0%, transparent 20%);
   background-size: 150% 150%;
   animation: gradient-shift 60s ease-in-out infinite;
-  filter: blur(150px);
+  filter: blur(80px);
+  will-change: background-position;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+}
+
+@media (max-width: 768px) {
+  .animated-gradient {
+    filter: blur(40px);
+    animation: gradient-shift 80s ease-in-out infinite;
+  }
+
+  .dark .animated-gradient {
+    filter: blur(40px);
+    animation: gradient-shift 80s ease-in-out infinite;
+  }
 }
 
 #root {
