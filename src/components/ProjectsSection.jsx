@@ -255,7 +255,7 @@ export const ProjectsSection = () => {
               <X size={28} strokeWidth={3} />
             </button>
 
-            <div className="glass-card max-w-2xl w-full max-h-[90vh] overflow-y-auto relative">
+            <div className="glass-card-modal max-w-2xl w-full max-h-[90vh] overflow-y-auto relative">
 
               {/* Project Image with Carousel */}
               <div className="h-96 overflow-hidden relative">

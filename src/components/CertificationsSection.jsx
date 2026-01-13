@@ -114,7 +114,7 @@ export const CertificationsSection = () => {
               <X size={28} strokeWidth={3} />
             </button>
 
-            <div className="glass-card max-w-2xl w-full max-h-[90vh] overflow-y-auto">
+            <div className="glass-card-modal max-w-2xl w-full max-h-[90vh] overflow-y-auto">
               {/* Certification Image */}
               <div className="h-72 overflow-hidden flex items-center justify-center bg-secondary/30 p-8">
                 <img
