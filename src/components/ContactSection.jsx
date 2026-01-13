@@ -151,7 +151,7 @@ export const ContactSection = () => {
                     href="https://www.linkedin.com/in/mohamad-danial-mohamad-nazim-268690263/"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-muted-foreground hover:text-primary transition-colors"
+                    className="text-muted-foreground hover:text-primary transition-colors text-left"
                   >
                     Mohamad Danial Mohamad Nazim
                   </a>
