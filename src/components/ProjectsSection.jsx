@@ -199,7 +199,7 @@ const projects = [
       "/projects/AVP/AVP9.png",
       "/projects/AVP/AVP10.png",
     ],
-    tags: ["Power Apps", "Power Automate", "SharePoint"],
+    tags: ["Microsoft Power Apps", "Power Automate", "SharePoint"],
     demoUrl: "#",
     githubUrl: "#",
     features: [
