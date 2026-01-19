@@ -132,7 +132,7 @@ const projects = [
       "/projects/IRM/IRM5.jpeg",
       "/projects/IRM/IRM6.jpeg",
     ],
-    tags: ["Microsoft Power Apps", "Power Automate", "SharePoint"],
+    tags: ["Microsoft Power Apps", "Power Automate", "SharePoint", "Power BI"],
     demoUrl: "#",
     githubUrl: "#",
     features: [
