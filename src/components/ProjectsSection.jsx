@@ -174,6 +174,45 @@ const projects = [
       "Structured data models"
     ],
   },
+  {
+    id: 6,
+    title: "Asia Visibility – Logistics Regulations & Shipment Planning Platform",
+    description:
+      "Centralized international and domestic logistics planning platform with automated workflows.",
+    fullDescription: [
+      "Streamlined international and domestic logistics planning by centralizing shipment regulations across multiple Asian countries, reducing dependency on manual email and call-based consultations, using Microsoft Power Apps, SharePoint, and Power Automate.",
+      "Improved shipment planning efficiency by providing a self-service, real-time logistics visibility platform, minimizing response delays and information bottlenecks, through automated data workflows and a centralized SharePoint repository.",
+      "Enhanced data accuracy and compliance readiness by consolidating fragmented logistics documents into a single source of truth, lowering the risk of outdated or inconsistent regulatory information, using role-based access control and version management in SharePoint.",
+      "Accelerated decision-making for logistics teams by enabling instant access to import/export requirements and domestic shipment details, measured by faster planning turnaround and reduced specialist workload, leveraging Power Apps dashboards with dynamic filtering.",
+      "Reduced operational inefficiencies in logistics communication by replacing repetitive manual queries with an automated visibility platform, measured by decreased reliance on Import/Export specialists, through Power Automate notification and update workflows.",
+      "Strengthened supply chain transparency and scalability by designing a structured logistics information system, supporting multi-country expansion and future regulatory updates, using low-code Power Platform architecture."
+    ],
+    images: [
+      "/projects/AVP/AVP1.png",
+      "/projects/AVP/AVP2.png",
+      "/projects/AVP/AVP3.png",
+      "/projects/AVP/AVP4.png",
+      "/projects/AVP/AVP5.png",
+      "/projects/AVP/AVP6.png",
+      "/projects/AVP/AVP7.png",
+      "/projects/AVP/AVP8.png",
+      "/projects/AVP/AVP9.png",
+      "/projects/AVP/AVP10.png",
+    ],
+    tags: ["Power Apps", "Power Automate", "SharePoint"],
+    demoUrl: "#",
+    githubUrl: "#",
+    features: [
+      "Centralized shipment regulations",
+      "Self-service visibility platform",
+      "Real-time logistics tracking",
+      "Automated data workflows",
+      "Role-based access control",
+      "Dynamic filtering dashboards",
+      "Multi-country scalability",
+      "Automated notifications"
+    ],
+  },
 ];
 
 export const ProjectsSection = () => {
